@@ -1483,6 +1483,8 @@ function getGeneratorMultiplier(tier) {
 	if (player.currentChallenge==10&&tier==9) multi=multi.pow(0.9)
 		
 	if (neutronBoost.gt(1)&&!player.preSupernova) multi=multi.times(neutronBoost)
+	
+	if (1=1) multi=multi.times(100)
 		
 	return multi
 }
